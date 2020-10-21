@@ -2,7 +2,7 @@ import argparse
 from svg_driver import svg_driver
 import pdf_maker
 
-parser = argparse.ArgumentParser(description="Downloads SVG files"
+parser = argparse.ArgumentParser(description="Downloads image files"
                                              " from a lazy-loader interface and converts them to PDF."
                                              "Can be used to download free PDFs from MuseScore.")
 parser.add_argument('-l', "--link", help="Link to download page", required=True, type=str)
